@@ -1,0 +1,284 @@
+body{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+}
+/* code menu*/
+
+nav{
+    width: 100%;
+    display: block;
+    background-color: #483737;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+nav li{
+    list-style-type: none;
+    margin-left: 20%;
+    text-align: center;
+}
+nav ul li{
+    text-align: center;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li a{
+    float: left;
+    width: 8%;
+    text-align:center;
+    color: #ffffff;
+    background-color: #B22222;
+    position: relative;
+    border: solid #B22222 1px;
+    border-radius: 5px; 
+    padding: 5px;
+    margin: 5px;
+}
+nav ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+}
+/* partie responsive du menu*/
+nav input[type=checkbox]{
+    display: none;
+}
+nav label{
+    display: none;
+}
+nav input[type=checkbox]:checked ~ ul
+{
+    display: block;
+}
+
+@media screen and (max-width: 668px){
+.menu{
+    display: block;
+    color: #FFF;
+    background-color: #B22222;
+    border-radius: 5px; 
+    text-align: center;
+    padding: 12px 0px;
+}
+nav{
+    margin-left: 1%;
+}
+
+nav ul{
+    display: none;
+    margin-left:  -10%;
+}
+nav ul li, nav ul li a{
+    width: 100%;
+    text-align: center;
+}
+nav ul li a, nav ul li:hover a{
+    text-align: center;
+    padding: 2% 0.5%;
+    color: black;
+    border: #B22222 solid 1px;
+}
+}  
+
+/*code logo et Bghome sous titre*/
+
+.logo1{
+    width: 180px;
+    height: 120px;
+    margin-left: 50px;
+}
+#container-fluid{
+    margin-top: 10px;
+}
+#Bghome{
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}
+.imghome{
+    padding: 15px;
+    height: 100%;
+}/*
+#texte{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    margin-left: 10%;
+    color: white;
+}
+#texte h2{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+}*/
+
+/* code Bedroom*/
+/* le h1 de la page Services et le txtcontact de la classe p de contact*/
+.txtcontact{
+    margin-left: 30px;
+}
+.titre{
+    margin-left: 100px;
+    color: #B22222;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+}
+/* code zoom image*/
+.box{
+    position: relative;
+    width: 150%;
+    padding: 1px;
+    margin-left: 0px;
+}
+.box .imghotel{
+	transition: -5;
+    width: 105%;
+    height: 110px;
+    margin: 0px;
+    padding: 5px;
+}
+/*.box:hover .imghotel{
+    transform: scale(1.5);
+    max-width: 80%;
+    height: auto;
+    vertical-align: middle;
+}*/
+[class*="col-md-6"]{
+    margin-bottom: 0%;
+    height: 200px;
+    padding: 5px;
+}
+.khs{
+    margin-bottom: 10%;
+    border-radius: 10px; 
+    padding-top: 0px;
+    height: 100%;
+}
+.chbre{
+    height: 90%;
+    margin-bottom: 10%;
+}
+.imgiconebedroom{
+    width: 12%;
+    height: 20%;
+}
+.imgbedroom{
+    width: 100%;
+    height: 120%;
+}
+.imghotel{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+}
+.container{
+    margin-top: 10px;
+}
+.row{
+    padding-top: 5px;
+}
+img{
+    padding-top: 10px;
+    width: 100%;
+    height: 50%;
+} 
+.sous-titre{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.plus{
+    border: 1px solid #B22222;
+    background-color: #B22222; 
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    padding: 8px;
+}
+.plus:hover{
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+}
+/* code pied de page */
+.bar{
+    background-color: #B22222;
+    font-weight: bolder;
+}
+[class*="col-sm"]{
+    margin-top: 5px;
+    margin-right: 2px;
+    padding: 1px;
+    text-align: left;
+}
+.container-fluid{
+    margin-top: 10px;
+}
+.col-lg{
+    background-color: rgb(139, 0, 0);
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+}
+/* code reseau sociaux */
+
+.imgreseau{
+    width: 20%;
+    height: 50px;
+}
+.equiepement{
+    margin-top: 0%;
+    width: 80%;
+    height: 50%;
+}
+.projector{
+    text-align: center;
+}
+.txtrepas{
+    width: 125%;
+    text-align: center;
+}
+.imgseminaire{
+    width: 100%;
+    height: 100%;
+}
+.titrefooter{
+    font-weight: bolder;
+}
+.titreformulaire{
+    font-weight: bolder;
+    margin-left: 5px;
+    font-style: normal;
+    color: #B22222;
+}
+.reservationchbr{
+    border: #B22222 solid;
+    background-color: yellow;
+    text-align: center;
+}
+.submit{
+    background-color: #B22222;
+    border-radius: 5px; 
+    border: #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.submit:hover{
+    background-color: #ffffff;
+    color: black;
+    border: #B22222 1px solid;
+}
+.nombre{
+    width: 30%;
+}
